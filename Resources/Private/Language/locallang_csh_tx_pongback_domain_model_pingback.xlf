@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-02-12T08:24:48Z" product-name="pongback">
+		<header/>
+		<body>
+
+			<trans-unit id="source_link.description">
+				<source>Source Link</source>
+			</trans-unit>
+			<trans-unit id="ping_client.description">
+				<source>Ping Client</source>
+			</trans-unit>
+			<trans-unit id="ping_ressource.description">
+				<source>Ressource</source>
+			</trans-unit>
+			<trans-unit id="target_link.description">
+				<source>Target Link</source>
+			</trans-unit>
+			<trans-unit id="serialized_information.description">
+				<source>Serialized Information</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

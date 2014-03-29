@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-02-12T08:24:48Z" product-name="pongback">
+		<header/>
+		<body>
+                        <trans-unit id="xmlrpc.pingback.ping.success">
+				<source>Success</source>
+			</trans-unit>
+			<trans-unit id="tx_pongback_domain_model_pingback">
+				<source>Pingback</source>
+			</trans-unit>
+			<trans-unit id="tx_pongback_domain_model_pingback.source_link">
+				<source>Source Link</source>
+			</trans-unit>
+			<trans-unit id="tx_pongback_domain_model_pingback.ping_client">
+				<source>Ping Client</source>
+			</trans-unit>
+			<trans-unit id="tx_pongback_domain_model_pingback.ping_ressource">
+				<source>Ressource</source>
+			</trans-unit>
+			<trans-unit id="tx_pongback_domain_model_pingback.target_link">
+				<source>Target Link</source>
+			</trans-unit>
+			<trans-unit id="tx_pongback_domain_model_pingback.serialized_information">
+				<source>Serialized Information</source>
+			</trans-unit>
+                        <trans-unit id="tx_pongback_domain_model_pingback.error_targetlink">
+				<source>Pingback agreement failure</source>
+			</trans-unit>
+                         <trans-unit id="tx_pongback_domain_model_pingback.error_noInformations">
+				<source>Link not found</source>
+			</trans-unit>
+                           <trans-unit id="tx_pongback_domain_model_pingback.pingback_arrived_alert_mail">
+				<source>Pingback arrived from</source>
+			</trans-unit>
+                        <trans-unit id="tx_pongback_domain_model_pingback.pingback_arrived_alert_mail_subject">
+				<source>Pingback Alert</source>
+			</trans-unit>
+                       <trans-unit id="tcemain.pingback.ping.refused">
+				<source>The Pingback was refused from %s for the following reason: %s.</source>
+			</trans-unit>
+                        <trans-unit id="tcemain.pingback.ping.accepted">
+				<source>Pingback accepted from %s.</source>
+			</trans-unit>
+                        <trans-unit id="tcemain.pingback.ping.not_sent">
+				<source>Pingback was not sent because of the tt_content or page is hidden.</source>
+			</trans-unit>
+                        <trans-unit id="tcemain.pingback.ping.not_sent_title">
+				<source>Pingback not sent</source>
+			</trans-unit>
+                        <trans-unit id="tcemain.pingback.ping.accepted_title">
+				<source>Pingback accepted</source>
+			</trans-unit>
+                        <trans-unit id="tcemain.pingback.ping.refused_title">
+				<source>Pingback refused</source>
+			</trans-unit>
+                         <trans-unit id="tx_pongback_domain_model_pingback.pingback_publish">
+				<source>Publish</source>
+			</trans-unit>
+                        <trans-unit id="tx_pongback_domain_model_pingback.pingback_unpublish">
+				<source>Unpublish</source>
+			</trans-unit>
+                        <trans-unit id="tx_pongback_domain_model_pingback.pingback_column_publish_heading">
+				<source>Release</source>
+			</trans-unit>
+                        <trans-unit id="tx_pongback_domain_model_pingback.pingback_column_delete_heading">
+				<source>Delete</source>
+			</trans-unit>
+                         <trans-unit id="tx_pongback_domain_model_pingback.pingback_delete">
+				<source>Delete</source>
+			</trans-unit>
+                        <trans-unit id="tx_pongback_domain_model_pingback.headline_backend">
+				<source>Received Pingbacks</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

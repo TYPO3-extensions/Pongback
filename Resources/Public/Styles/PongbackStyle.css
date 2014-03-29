@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21.02.2014, 15:48:53
+    Author     : Michael
+*/
+.tx_pongback{
+        display: inline-block; 
+        font-family: cursive;
+     
+    
+}
+
+.tx_pongback_text{
+    
+    text-align: center; 
+    font-family: Arial; 
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: skyblue;
+    margin: auto 0 ; 
+    text-decoration: underline; 
+}
+
+#pongbackFrontend{
+        display: inline-table; 
+        margin: 0 auto; 
+        
+        font-family: cursive; 
+        background-image: -webkit-linear-gradient(skyblue 20%, #9FBFD2 80%); 
+        background-image: -moz-linear-gradient(skyblue 20%, #9FBFD2 80%); 
+        background-image: -o-linear-gradient(skyblue 20%, #9FBFD2 80%); 
+        background-image: linear-gradient(skyblue 20%, #9FBFD2 80%);; 
+        text-align: center;
+        
+        
+        text-decoration: none; 
+        box-shadow: 5px 5px 5px black; 
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+     
+}
+
+#pongbackFrontend th{
+    
+    text-spacing: space-start; 
+    
+}
+
+#pongbackFrontend tr{
+     display: table-row-group; 
+    
+    
+}
+
+
+#pongbackFrontend td{
+    padding: 5px; 
+    
+}
+
+#pongbackBackend {
+    
+   display: inline-table; 
+        margin: 0 auto; 
+       
+        font-family: cursive; 
+        background-color: skyblue; 
+        text-align: center; 
+        
+        text-decoration: none; 
+        text-shadow: 1px black; 
+}
