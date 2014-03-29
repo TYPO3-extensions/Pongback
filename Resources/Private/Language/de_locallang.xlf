@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="de" datatype="plaintext" original="messages" date="2014-02-12T08:24:48Z" product-name="pongback">
+		<header/>
+                
+		<body>
+                    <trans-unit id="tx_pongback_domain_model_pingback.error_targetlink">
+				<source>Pingbackübereinstimmung gescheitert</source>
+			</trans-unit>
+                        <trans-unit id="tx_pongback_domain_model_pingback">
+				<source>Pingback</source>
+			</trans-unit>
+			<trans-unit id="tx_pongback_domain_model_pingback.source_link">
+				<source>Quelllink</source>
+			</trans-unit>
+			<trans-unit id="tx_pongback_domain_model_pingback.ping_client">
+				<source></source>
+			</trans-unit>
+			<trans-unit id="tx_pongback_domain_model_pingback.ping_ressource">
+				<source>Inhalt</source>
+			</trans-unit>
+			<trans-unit id="tx_pongback_domain_model_pingback.target_link">
+				<source>Ziellink</source>
+			</trans-unit>
+			<trans-unit id="tx_pongback_domain_model_pingback.serialized_information">
+				<source>Information</source>
+			</trans-unit>
+                        <trans-unit id="tx_pongback_domain_model_pingback.pingback_arrived_alert_mail">
+				<source>soeben ein ein neuer Pingback eingetroffen von </source>
+			</trans-unit>
+                        <trans-unit id="tx_pongback_domain_model_pingback.pingback_arrived_alert_mail_subject">
+				<source>Ein neuer Pingback ist eingetroffen</source>
+			</trans-unit>
+                         <trans-unit id="tx_pongback_domain_model_pingback.pingback_publish">
+				<source>veröffentlicht</source>
+			</trans-unit>
+                        <trans-unit id="tx_pongback_domain_model_pingback.pingback_unpublish">
+				<source>unveröffentlicht</source>
+			</trans-unit>
+                        <trans-unit id="tx_pongback_domain_model_pingback.pingback_column_publish_heading">
+				<source>Veröffentlichen</source>
+			</trans-unit>
+                        <trans-unit id="tx_pongback_domain_model_pingback.pingback_column_delete_heading">
+				<source>Löschen</source>
+			</trans-unit>
+                        <trans-unit id="tx_pongback_domain_model_pingback.headline_backend">
+				<source>Empfangene Pingbacks</source>
+			</trans-unit>
+                        
+                </body>
+	</file>
+</xliff>

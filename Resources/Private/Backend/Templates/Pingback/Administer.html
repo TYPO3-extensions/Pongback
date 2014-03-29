@@ -1,0 +1,43 @@
+<f:layout name="Default" />
+
+<f:section name="content">
+    <h1><th><f:translate key="tx_pongback_domain_model_pingback.headline_backend" /></th></h1>
+
+<f:flashMessages />
+<div id="pongbackBackend">
+<table border="1" frame="void" width="80%" align="center" class="tx_pongback" >
+	
+    <tr>
+		<th><f:translate key="tx_pongback_domain_model_pingback.source_link" /></th>
+                <th><f:translate key="tx_pongback_domain_model_pingback.target_link" /></th>
+		<!--<th><f:translate key="tx_pongback_domain_model_pingback.ping_client" /></th>
+		<th><f:translate key="tx_pongback_domain_model_pingback.ping_ressource" /></th>-->
+		<th><f:translate key="tx_pongback_domain_model_pingback.serialized_information" /></th>
+               <!-- <th>hidden</th><f:translate key="tx_pongback_domain_model_pingback.serialized_information" />-->
+		<th><f:translate key="tx_pongback_domain_model_pingback.pingback_column_publish_heading"  /></th>
+                <th><f:translate key="tx_pongback_domain_model_pingback.pingback_column_delete_heading" /></th>
+                </tr>
+
+	<f:for each="{pingbacks}" as="pingback">
+		<tr>
+			<td><f:link.external uri="{pingback.sourceLink}" target="_blank"> {pingback.sourceLink}</f:link.external></td>
+			<td><f:link.external uri="{pingback.targetLink}" target="_blank"> {pingback.targetLink}</f:link.external></td>
+			<td><f:link.external uri="{pingback.sourceLink}" target="_blank"> {pingback.serializedInformation}</f:link.external></td>
+                         <!-- <td><f:link.action action="show" arguments="{pingback : pingback}"> {pingback.colums}</f:link.action></td>-->
+			<f:if condition="{pingback.hidden}">
+                            <f:then>
+                                <td><f:link.action action="publish" arguments="{pingback : pingback}"><f:translate key="tx_pongback_domain_model_pingback.pingback_publish" /></f:link.action></td>
+                            </f:then>
+                            <f:else>
+                                <td><f:link.action action="unpublish" arguments="{pingback : pingback.uid}"><f:translate key="tx_pongback_domain_model_pingback.pingback_unpublish" /></f:link.action></td>
+                            </f:else>
+                        </f:if>
+                        
+                        
+			<td><f:link.action action="delete" arguments="{pingback : pingback}"><f:translate key="tx_pongback_domain_model_pingback.pingback_delete"  /></f:link.action></td>
+		</tr>
+	</f:for>
+</table>
+</div>
+<!--<f:link.action action="new">New Pingback</f:link.action>--> 
+</f:section>

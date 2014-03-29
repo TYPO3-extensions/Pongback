@@ -1,0 +1,7 @@
+# cat=basic/enable; type=string; label=Notification Mail Address:Optional - If you placed an email addresss here, a notification mail will be generated on every incoming pingback
+notificationAddress = 
+
+# cat=basic/enable; type=boolean; label=Enable AutoPublishing: Publish incoming pingbacks automatically
+enableAutoPublishing = 1
+
+

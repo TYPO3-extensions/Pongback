@@ -1,0 +1,54 @@
+plugin.tx_pongback {
+	view {
+		templateRootPath = {$plugin.tx_pongback.view.templateRootPath}
+		partialRootPath = {$plugin.tx_pongback.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_pongback.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_pongback.persistence.storagePid}
+                   # Pingbacks werden da gespeichert auf der sie eingehen 
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+}
+
+ # Module configuration
+module.tx_pongback {
+	persistence {
+		storagePid = {$module.tx_pongback.persistence.storagePid}
+	}
+	view {
+		templateRootPath = {$module.tx_pongback.view.templateRootPath}
+		partialRootPath = {$module.tx_pongback.view.partialRootPath}
+		layoutRootPath = {$module.tx_pongback.view.layoutRootPath}
+	}
+}
+
+page.headerData.1392814115 = TEXT
+page.headerData.1392814115 {
+    value = pingback
+    typolink.parameter = 1
+    typolink.additionalParams = &type=1392814100
+    typolink.returnLast = url
+    typolink.forceAbsoluteUrl = 1
+    wrap = <link rel="pingback" href="|">
+}
+
+
+PingbackEndpoint = PAGE
+PingbackEndpoint {
+    typeNum = 1392814100
+    config {
+        disableAllHeaderCode = 1
+        xhtml_cleaning = 0
+        admPanel = 0
+        debug = 0
+        no_cache = 1
+        additionalHeaders = Content-Type:text/xml
+    }
+    10 < tt_content.list.20.pongback_server
+}
+
+page.includeCSS.pongback = EXT:pongback/Resources/Public/Styles/PongbackStyle.css

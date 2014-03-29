@@ -1,0 +1,37 @@
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+<!--Frontend shows only this what the user want-->
+<f:section name="main">
+<div class="tx_pongback_text">Pingbacks</div>
+
+<f:flashMessages />
+<div id="pongbackFrontend">
+    <table class="tx_pongback" >
+        <tr>
+
+        <th><f:translate key="tx_pongback_domain_model_pingback.source_link" /></th>
+        <th><f:translate key="tx_pongback_domain_model_pingback.target_link" /></th>
+        <th><f:translate key="tx_pongback_domain_model_pingback.serialized_information" /></th>
+        </tr>
+
+        <f:for each="{pingbacks}" as="pingback">
+            <tr>
+            <td> <f:link.external uri="{pingback.sourceLink}" target="_blank">{pingback.sourceLink}</f:link.external></td>
+            <td><f:link.external uri="{pingback.targetLink}" target="_blank"> {pingback.targetLink}</f:link.external></td>
+            <td> <f:link.external uri="{pingback.sourceLink}" target="_blank">{pingback.serializedInformation}</f:link.external></td>
+
+        </f:for>
+    </table>
+</div>
+
+</f:section>
