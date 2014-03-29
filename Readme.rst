@@ -13,3 +13,5 @@ Any idea or suggestion for improving this template `can be drop`_ to our team_. 
 .. _team: http://forge.typo3.org/projects/typo3v4-official_extension_template
 .. _make links: RestructuredtextHelp.html#cross-linking
 .. _can write TypoScript: RestructuredtextHelp.html#typoscript-reference
+
+nice try
